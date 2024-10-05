@@ -1,0 +1,5 @@
+a= input("Enter a sentence: ")
+wrds = a.split()
+wrds = sorted(wrds, key=len)
+ans = ' '.join(wrds)
+print(ans)
